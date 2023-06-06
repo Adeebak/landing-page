@@ -16,7 +16,6 @@ body {
 
 }
 
-
 .head {
     background-color: #1F2937;
     display: flex;
@@ -113,4 +112,33 @@ button {
 
 .info {
     max-width: 200px;
+}
+
+/* Quote Style */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #E5E7EB;
+    padding: 8% 20%;
+}
+
+.quote, .author {
+    align-items: flex-end;
+}
+
+.saying {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    line-height: 50px;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
 }
