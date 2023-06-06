@@ -125,7 +125,8 @@ button {
     padding: 8% 20%;
 }
 
-.quote, .author {
+.quote,
+.author {
     align-items: flex-end;
 }
 
@@ -141,4 +142,24 @@ button {
     font-size: 24px;
     font-weight: bold;
     color: #1F2937;
+}
+
+.action {
+    display: flex;
+    justify-content: space-around;
+    background: #3882F6;
+    color: #F9FAF8;
+    margin: 5% 15%;
+    padding: 50px 0;
+    border-radius: 10px;
+}
+
+.action p,
+h2 {
+    margin: 0;
+}
+
+.action button {
+    border: 2px solid #F9FAF8;
+    font-size: large;
 }
